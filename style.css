@@ -1,0 +1,122 @@
+@-ms-viewport
+{
+    width: device-width;
+}
+@-o-viewport
+{
+    width: device-width;
+}
+@viewport
+{
+    width: device-width;
+}
+
+html
+{
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background: #F66706;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    width: auto;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#F66706;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 14px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+
+p {
+  font-weight: normal;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+form {
+  text-align: center;
+}
+
+button {
+  background-color:#F66706;
+  border-radius: 12px;
+  width: 100px;
+  height: 25px;
+  color: white;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.column {
+  flex: 1;
+  border: none;
+  margin: 2px;
+  padding: 5px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+  .columns .column {
+    margin-bottom: 5px;
+    flex-basis: 40%;
+  }
+  .columns .column:nth-last-child(2) {
+    margin-right: 0;
+  }
+  .columns .column:last-child {
+    flex-basis: 100%;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .columns .column {
+    flex-basis: 100%;
+    margin: 0 0 5px 0;
+  }
+}
