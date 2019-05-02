@@ -75,7 +75,6 @@ h5 {
   font-size: 16px;
 }
 
-
 p {
   font-weight: normal;
   font-size: 15px;
@@ -123,20 +122,6 @@ img {
 }
 
 
-
-@media screen and (max-width: 980px) {
-  .columns .column {
-    margin-bottom: 5px;
-    flex-basis: 40%;
-  }
-  .columns .column:nth-last-child(2) {
-    margin-right: 0;
-  }
-  .columns .column:last-child {
-    flex-basis: 100%;
-    margin: 0;
-  }
-}
 @media screen and (max-width: 680px) {
   .columns .column {
     flex-basis: 100%;
