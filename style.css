@@ -20,11 +20,11 @@ html
 }
 
 header {
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   background: #F66706;
   color: white;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 body {
@@ -55,12 +55,35 @@ h2 {
   padding-left: 10px;
 }
 
+h3 {
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 22px;
+
+}
+
+h4 {
+  font-weight: normal;
+  padding-left: 10px;
+  font-size: 18px;
+
+}
+
+h5 {
+  font-weight: normal;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
 
 p {
   font-weight: normal;
   font-size: 15px;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 form {
@@ -118,5 +141,17 @@ img {
   .columns .column {
     flex-basis: 100%;
     margin: 0 0 5px 0;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  header {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    font-size: 30px;
   }
 }
