@@ -1,0 +1,106 @@
+[
+  {
+    "name" : "Valley Wine Bar",
+    "address" : "171 Alfred St, Fortitude Valley QLD 4006",
+    "price" : "high",
+    "review" : "Located right outside our building, these people know what you want. They have beer as well but they specialise in wine. A little pricey but worth it."
+  },
+
+  {
+    "name" : "Soapbox Beer",
+    "address" : "89/101 Gipps St, Fortitude Valley QLD 4006",
+    "price" : "",
+    "review" : ""
+  },
+
+  {
+    "name" : "Sabotage",
+    "address" : "143 Wickham St, Fortitude Valley QLD 4006",
+    "price" : "low",
+    "review" : "Sabotage is a bit of a grunge bar, super casual, and has a few pool tables. The Dj usually spins up some old school tunes and there's a small dance space. The back courtyard is mainly for smokers but has good seating for a chat over some beers."
+  },
+
+  {
+    "name" : "Proud Henry",
+    "address" : "153 Wickham St, Brisbane City QLD 4006",
+    "price" : "",
+    "review" : "Proud Henry is Corina's favourite place to visit because it's quiet and the atmosphere is beautiful. The staff have a wealth of gin knowledge so ask for a fruity/sweet/herbal/sour gin and you won't be disappointed! The back courtyard cancels out the city noise and you can sip your gin under fairy lights, feeling the stress of travel melt away."
+  },
+
+  {
+    "name" : "Tomcat",
+    "address" : "1/210 Wickham St, Fortitude Valley QLD 4006",
+    "price" : "low",
+    "review" : "Another grunge-type bar but they sell Big A$$ Pizzas. This place has more pool tables and a secret door that will take you to a hidden bar called The Boiler Room."
+  },
+
+  {
+    "name" : "Prohibition",
+    "address" : "206 Wickham St, Fortitude Valley QLD 4006",
+    "price" : "",
+    "review" : "If you want to dance, this is the place you want be. Techno remixes under a hanging light display will rock your world. The line may seem long but they get people through pretty quick but the line at the bar is almost not worht it."
+  },
+
+  {
+    "name" : "Holey Moley",
+    "address" : "25 Warner St, Fortitude Valley QLD 4006",
+    "price" : "high",
+    "review" : "Ever wanted to play mini-golf inside a church? Holey Moley has you covered. Two levels of entertainment and they make you wear a beret with astro turf if you order food (easier to find you). A fun night out with friends."
+  },
+
+  {
+    "name" : "King Lear's Throne",
+    "address" : "3/693 Ann St, Fortitude Valley QLD 4006",
+    "price" : "low",
+    "review" : ""
+  },
+
+  {
+    "name" : "Hidden Gin Bar",
+    "address" : "",
+    "price" : "high",
+    "review" : "Just like Saville Row, this place is also hidden. Keep an eye out for the blue door and inside you will find a cosy bar with hundreds of gins. Not sure what you are after? Ask the friendly staff for a particular flavour and they will give you something extrordinary."
+  },
+
+  {
+    "name" : "Saville Row",
+    "address" : "667 Ann St, Fortitude Valley QLD 4006",
+    "price" : "high",
+    "review" : "This place is a hidden whiskey bar in the middle of the Valley. Located on Ann st behind an orange door, there are hundreds of whiskey to choose from. It does get loud and busy as the night goes on so if you were hoping to grab a whiskey and a quiet chat, go early."
+  },
+
+  {
+    "name" : "Press Club",
+    "address" : "339 Brunswick St, Fortitude Valley QLD 4006",
+    "price" : "",
+    "review" : ""
+  },
+
+  {
+    "name" : "Cloudland",
+    "address" : "641 Ann St, Fortitude Valley QLD 4006",
+    "price" : "high",
+    "review" : "On Thursday evenings, they have salsa night so strap on your dancing shoes. Don't feel like dancing? Sit in one of their many insta-worthy booths and people watch. This place grets crowded on a weekend night, so if personal space is an issue for you, then Ric's bar may be the place for you."
+  },
+
+  {
+    "name" : "Woolly Mamoth",
+    "address" : "633 Ann St, Fortitude Valley QLD 4006",
+    "price" : "",
+    "review" : ""
+  },
+
+  {
+    "name" : "Ric's Bar",
+    "address" : "321 Brunswick St, Fortitude Valley QLD 4006",
+    "price" : "",
+    "review" : ""
+  },
+
+  {
+    "name" : "Black Bear Lodge",
+    "address" : "322 Brunswick St, Fortitude Valley QLD 4006",
+    "price" : "mid-high",
+    "review" : ""
+  }
+]
