@@ -127,6 +127,7 @@ h5 {
   font-weight: normal;
   padding-left: 10px;
   font-size: 25px;
+  margin-bottom: 0px;
 }
 
 p {
@@ -135,8 +136,8 @@ p {
   text-align: left;
   padding-left: 20px;
   padding-right:20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 form {
@@ -180,6 +181,9 @@ img {
   .columns .column {
     flex-basis: 100%;
     margin: 0 0 5px 0;
+  }
+  p {
+    width: 90%;
   }
 }
 
