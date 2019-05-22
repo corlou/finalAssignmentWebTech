@@ -107,23 +107,6 @@ p {
   padding-bottom: 10px;
 }
 
-form {
-  text-align: center;
-}
-
-button {
-  background-color:#F66706;
-  border-radius: 12px;
-  width: 100px;
-  height: 25px;
-  color: white;
-}
-
-button:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
-}
-
 img {
   max-width: 100%;
   margin: 0;
@@ -143,6 +126,24 @@ img {
   padding: 5px;
 }
 
+/*Contact Us Form*/
+form {
+  text-align: center;
+}
+
+button {
+  background-color:#F66706;
+  border-radius: 12px;
+  width: 100px;
+  height: 25px;
+  color: white;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
   /*
  * Made by Erik Terwan
  * 24th of November 2015
@@ -154,7 +155,7 @@ img {
  * prefixes.
  */
 
-
+/*Hamburger Menu*/
 
 a
 {
@@ -194,9 +195,6 @@ a:hover
   -webkit-touch-callout: none;
 }
 
-/*
- * Just a quick hamburger
- */
 #menuToggle span
 {
   display: block;
@@ -292,21 +290,22 @@ a:hover
   transform: none;
 }
 
-/*Scroll To Top*/
+/*Scroll To Top Button*/
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 80px;
+  bottom: 50px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
   border: none;
   outline: none;
   background-color: #F66706;
+  text-align: fixed;
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+  padding: 5px;
+  border-radius: 1px;
 }
 
 #myBtn:hover {
