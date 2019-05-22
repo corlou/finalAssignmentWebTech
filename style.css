@@ -311,6 +311,7 @@ a:hover
 
 #myBtn:hover {
   background-color: #9400D3;
+}
 
 @media screen and (max-width: 680px) {
   .columns .column {
