@@ -1,3 +1,15 @@
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
 @-ms-viewport
 {
     width: device-width;
@@ -28,7 +40,7 @@ header {
 	align-items: center;
   justify-content: center;
   color: white;
-  font-size: 65px;
+  font-size: 60px;
   font-family: 'Oxygen', sans-serif;
 }
 
@@ -119,11 +131,14 @@ img {
   justify-content: center;
 }
 
+
 .column {
   flex: 1;
   border: none;
   margin: 2px;
   padding: 5px;
+  -webkit-transition: width 2s; /* Safari */
+  transition: width 2s;
 }
 
 /*Contact Us Form*/
@@ -172,8 +187,10 @@ a:hover
 #menuToggle
 {
   display: block;
-  position: relative;
-  top: 50px;
+  position: absolute;
+  bottom:0;
+  right: 0;
+  top: 25px;
   left: 50px;
   z-index: 1;
   -webkit-user-select: none;
@@ -186,12 +203,9 @@ a:hover
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
   cursor: pointer;
   opacity: 0; /* hide this */
   z-index: 2; /* and place it over the hamburger */
-  
   -webkit-touch-callout: none;
 }
 
@@ -202,14 +216,10 @@ a:hover
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #f7f7f7;
   border-radius: 3px;
-  
   z-index: 1;
-  
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
@@ -263,16 +273,13 @@ a:hover
   width: 150px;
   margin: -100px 0 0 -60px;
   padding: 50px;
-  padding-top: 125px;
-  
+  padding-top: 110px;
   background: rgb(243, 197, 166);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
@@ -288,28 +295,6 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
-}
-
-/*Scroll To Top Button*/
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 50px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #F66706;
-  text-align: fixed;
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-  border-radius: 1px;
-}
-
-#myBtn:hover {
-  background-color: #9400D3;
 }
 
 @media screen and (max-width: 680px) {
