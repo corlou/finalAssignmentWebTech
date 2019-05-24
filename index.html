@@ -8,6 +8,40 @@
     <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <style>
+      /*Images and Transformation*/
+      img {
+        max-width: 100%;
+        margin: 0;
+        height: auto;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        padding-left: 10px;
+      }
+
+      div {
+        width: 99%;
+        height: 100%;
+        -webkit-transition: width 0.5s;
+        transition: width 0.5s;
+      }
+
+      div:hover {
+        width: 100%;
+        height: 270px;
+      }
+
+      img.flex {
+        display: block;
+        width: 98%;
+        margin: 0;
+        height: auto;
+      }
+    </style>
   </head>
 
  
@@ -32,54 +66,53 @@
       </ul>
     </div>
     <header>
-        <h4>Pentacular Couch Surfing</h4>
-      </header>
+      <h4>Pentacular Couch Surfing</h4>
+    </header>
   </nav>
   
-  <div>
+  <section>
+    <a href="map.html"><img class="icon" src="images/map_icon.png" alt="map icon"></a>
+  </section>
+  
+
+  <section>
     <img src="images/homepage/hero_home.jpg" alt="sunset over Mt Coot-Tha">
-  </div>
+  </section>
+
+  <p>
+    Hello and welcome to the Pentacular Couch Surfing experience. While you are staying with us, use this website as a helpful guide to some amazing (and sometimes hidden) places around Brisbane CBD. All the information you will need is right here on this site but of course, feel free to ask us. We may even need to include it here. Remember! you can also send your photos to us and they can be added to the website to let our other amazing guests know about the fun places you have been to.
+  </p>
 
   
-    <div>
-      <p>Hello and welcome to the Pentacular Couch Surfing experience. While you are staying with us, use this website as a helpful guide to some amazing (and sometimes hidden) places around Brisbane CBD. All the information you will need is right here on this site but of course, feel free to ask us. We may even need to include it here. Remember! you can also send your photos to us and they can be added to the website to let our other amazing guests know about the fun places you have been to.</p>
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="bars.html"><img class="flex" src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
     </div>
-
-
-    <div class="wrapper">
-      <section class="columns">
-        <div class="column">
-          <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
-        </div>
-        <div class="column">
-          <a href="cafes.html"><img src="images/homepage/cafes.jpg" alt="cups of coffee"></a>
-        </div>
-        <div class="column">
-          <a href="events.html"><img src="images/homepage/events.jpg" alt="people dancing at a festival"></a>
-        </div>
-      </section>
+    <div class="flex-item">
+      <a href="cafes.html"><img class="flex" src="images/homepage/cafes.jpg" alt="cups of coffee"></a>
     </div>
+    <div class="flex-item">
+      <a href="events.html"><img class="flex" src="images/homepage/events.jpg" alt="people dancing at a festival"></a>
+    </div>
+  </div>
 
-    <div class="wrapper">
-      <section class="columns">
-        
-        <div class="column">
-          <a href="food.html"><img src="images/homepage/food.jpg" alt="breakfast on a plate"></a>
-        </div>
-        
-        <div class="column">
-          <a href="transport.html"><img src="images/homepage/transport.jpg" alt="ferry on the water"></a>
-        </div>
-        
-        <div class="column">
-          <a href="shopping.html"><img src="images/homepage/shopping.jpg" alt="row of shops"></a>
-        </div>
-      </section>
-      </div>
-      
+  <div class="flex-container">
+    <div class="flex-item">
+      <a href="food.html"><img class="flex" src="images/homepage/food.jpg" alt="breakfast on a plate"></a>
+    </div>
+    <div class="flex-item">
+      <a href="transport.html"><img class="flex" src="images/homepage/transport.jpg" alt="ferry on the water"></a>
+    </div>
+    <div class="flex-item">
+      <a href="shopping.html"><img class="flex" src="images/homepage/shopping.jpg" alt="row of shops"></a>
+    </div>
+  </div>
+    
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
      
     <br>
     <footer class="footer">Brisbane, Queensland, Australia</footer>
     
   </body>
+  <script type="text/javascript" src="script.js"></script>
 </html>

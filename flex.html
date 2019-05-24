@@ -2,20 +2,108 @@
 <html>
 <head>
 <style>
+body{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+@-ms-viewport
+{
+    width: device-width;
+}
+@-o-viewport
+{
+    width: device-width;
+}
+@viewport
+{
+    width: device-width;
+}
+
+body { margin: 0 auto; }
+
+html
+{
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+header {
+	height: 70px;
+	background-color: #F66706;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+header > h1 {
+	width: calc(100% - 160px);
+	text-align: center;
+  font-size: 20px;
+  color: white;
+  text-emphasis: none;
+}
+img.icon {
+  display: block;
+  position: fixed;
+  right: 80px;
+  width: 30px;
+  height: 35px;
+  top:15px;
+  bottom:0;
+  z-index: 1;
+}
+
+main {
+	width: 100%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+  /*width: auto;*/
+  /*height: 100%;*/
+  min-height: 100%;
+  margin: 0;
+  background-color: #fcfcfc;
+}
+
+
+html
+{
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+}
 
 .flex-container {
   display: flex;
   flex-direction: row;
-  padding: 10px;
-  justify-content: space-between;
+  padding: 5px;
+  justify-content: center;
 }
-
 
 div {
   width: 98%;
   height: 100%;
-  -webkit-transition: width 0.1s; /* For Safari 3.1 to 6.0 */
-  transition: width 0.1s;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
 }
 
 div:hover {
@@ -23,43 +111,60 @@ div:hover {
   height: 270px;
 }
 
-img {
+img.flex {
   display: block;
-  width: 90%;
+  width: 98%;
   margin: 0;
   height: auto;
-  
 }
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right:20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 
 </style>
 </head>
 <body>
 
+       
+
+
 <div class="flex-container">
   <div class="flex-item">
-    <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
+    <a href="bars.html"><img class="flex" src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
   </div>
   <div class="flex-item">
-    <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
+    <a href="bars.html"><img class="flex" src="images/homepage/cafes.jpg" alt="cups of coffee"></a>
   </div>
   <div class="flex-item">
-    <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
+    <a href="bars.html"><img class="flex" src="images/homepage/events.jpg" alt="people dancing at a festival"></a>
   </div>
 </div>
 
-
 <div class="flex-container">
     <div class="flex-item">
-      <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
-    </div>
-    <div class="flex-item">
-      <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
-    </div>
-    <div class="flex-item">
-      <a href="bars.html"><img src="images/homepage/bars.jpg" alt="people sitting in a bar"></a>
-    </div>
+    <a href="bars.html"><img class="flex" src="images/homepage/food.jpg" alt="breakfast on a plate"></a>
   </div>
+  <div class="flex-item">
+    <a href="bars.html"><img class="flex" src="images/homepage/transport.jpg" alt="ferry on the water"></a>
+  </div>
+  <div class="flex-item">
+    <a href="bars.html"><img class="flex" src="images/homepage/shopping.jpg" alt="row of shops"></a>
+  </div>
+</div>
+  
 
 
+
+  <br>
+  <footer class="footer">Brisbane, Queensland, Australia</footer>
 </body>
 </html>

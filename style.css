@@ -34,7 +34,7 @@ html
 }
 
 header {
-	height: 70px;
+	height: 65px;
 	background-color: #F66706;
 	display: flex;
 	align-items: center;
@@ -52,6 +52,17 @@ header > h1 {
   text-emphasis: none;
 }
 
+img.icon {
+  display: block;
+  position: fixed;
+  right: 80px;
+  width: 30px;
+  height: 35px;
+  top:12px;
+  bottom:0;
+  z-index: 1;
+}
+
 main {
 	width: 100%;
 	padding: 30px;
@@ -59,18 +70,16 @@ main {
 }
 
 body {
-    font-family: 'Open Sans';
-    font-size: 20px;
-    font-weight: 400;
-    width: auto;
-    height: 100%;
-    min-height: 100%;
-    margin: 0;
-    background-color: #fcfcfc;
+  font-family: 'Open Sans';
+  font-size: 20px;
+  font-weight: 400;
+  min-height: 100%;
+  margin: 0;
+  background-color: #fcfcfc;
 }
 
 footer {
-  height: 20px;
+  height: 25px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -125,12 +134,16 @@ img {
   height: auto;
 }
 
+div {
+  width: 100%;
+  height: 100%;
+}
+
 .columns {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
-
 
 .column {
   flex: 1;
@@ -141,6 +154,28 @@ img {
   transition: width 2s;
 }
 
+/*Scroll to Top Button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color:#F66706;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #570cc8;
+}
+
+
 /*Contact Us Form*/
 form {
   text-align: center;
@@ -150,7 +185,6 @@ button {
   background-color:#F66706;
   border-radius: 12px;
   width: 100px;
-  height: 25px;
   color: white;
 }
 
@@ -190,7 +224,7 @@ a:hover
   position: absolute;
   bottom:0;
   right: 0;
-  top: 25px;
+  top: 20px;
   left: 50px;
   z-index: 1;
   -webkit-user-select: none;
