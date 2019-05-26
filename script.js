@@ -5,9 +5,17 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
+    const myButton = document.getElementById("myBtn");
+    // check if button exists before attempting to apply style
+    if (myButton) {
+      myButton.style.display = "block";
+    }
   } else {
-    document.getElementById("myBtn").style.display = "none";
+    const myButton = document.getElementById("myBtn");
+    // check if button exists before attempting to apply style
+    if (myButton) {
+      myButton.style.display = "none";
+    }
   }
 }
 
