@@ -1,18 +1,6 @@
-body{
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-nav{
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
-
 @-ms-viewport
 {
-    width: device-width;
+  width: device-width;
 }
 @-o-viewport
 {
@@ -23,10 +11,19 @@ nav{
     width: device-width;
 }
 
-body { margin: 0 auto; }
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
 
-html
-{
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
   position: relative;
   height: 100%;
   min-height: 100%;
@@ -196,15 +193,7 @@ button:hover {
   /*
  * Made by Erik Terwan
  * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
-
-/*Hamburger Menu*/
+ * MIT License*/
 
 a
 {
@@ -331,7 +320,46 @@ a:hover
   transform: none;
 }
 
-@media screen and (max-width: 680px) {
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: none;
+  padding: 0px;
+  width: 400px;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 150px;
+}
+
+.flex:hover {
+  width: 100%;
+  height: 270px;
+}
+
+img.flex {
+  display: block;
+  width: 98%;
+  margin: 0;
+  height: auto;
+}
+
+.flex {
+  width: 99%;
+  height: 100%;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+}
+
+@media screen and (max-width: 600px) {
   .columns .column {
     flex-basis: 100%;
     margin: 0 0 5px 0;
@@ -339,16 +367,104 @@ a:hover
   p {
     width: 90%;
   }
+  img.icon {
+    display: block;
+    position: fixed;
+    right: 2%;
+    width: 25px;
+    height: 28px;
+    top: 20px;
+    bottom: 0;
+    z-index: 1;
+  }
+  #menuToggle {
+    display: block;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    top: 20px;
+    left: 15px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle {
+    display: block;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    top: 22px;
+    left: 10px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:#F66706;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+.flex-item {
+background: none;
+padding: 0px;
+width: 400px;
+height: 250px;
+margin-top: 10px;
+margin-bottom: 30px;
+line-height: 150px;
 }
 
-@media screen and (min-width: 601px) {
-  header {
-    font-size: 45px;
-  }
+.flex:hover {
+width: 100%;
+height: 270px;
 }
 
-@media screen and (max-width: 600px) {
-  header {
-    font-size: 30px;
-  }
+img.flex {
+display: block;
+width: 98%;
+margin: 0;
+height: auto;
+}
+
+.flex {
+width: 99%;
+height: 100%;
+-webkit-transition: width 0.5s;
+transition: width 0.5s;
+}
+
+footer {
+height: 5px;
+padding: 15px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color:#F66706;
+justify-content: center;
+color: antiquewhite;
+display: flex;
+font-size: 12px;
+}
 }
