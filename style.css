@@ -12,6 +12,7 @@
 }
 
 nav {
+  z-index: 1;
   position: fixed;
   top: 0px;
   width: 100%;
@@ -152,48 +153,37 @@ div {
 }
 
 /*Scroll to Top Button*/
-#myBtn {
-  display: none;
+#back-top {
   position: fixed;
-  bottom: 40px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
+  right: 20px;
+  width: 30px;
+  height: 35px;
+  bottom: 30px;
+  z-index: 1;
   border: none;
-  outline: none;
-  background-color:#F66706;
-  color: white;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 4px;
 }
-
-#myBtn:hover {
-  background-color: #570cc8;
-}
-
 
 /*Contact Us Form*/
 form {
   text-align: center;
 }
 
-button {
+.button--contact {
   background-color:#F66706;
   border-radius: 12px;
   width: 100px;
   color: white;
 }
 
-button:hover {
+.button--contact:hover {
   background-color: #4CAF50;
   color: white;
 }
 
-  /*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License*/
+/* Hamburger Menu
+ Made by Erik Terwan
+ 24th of November 2015
+ MIT License*/
 
 a
 {
@@ -241,7 +231,7 @@ a:hover
   position: relative;
   background: #f7f7f7;
   border-radius: 3px;
-  z-index: 1;
+  z-index: 2;
   transform-origin: 4px 0px;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -359,6 +349,7 @@ img.flex {
   transition: width 0.5s;
 }
 
+
 @media screen and (max-width: 600px) {
   .columns .column {
     flex-basis: 100%;
@@ -377,17 +368,6 @@ img.flex {
     bottom: 0;
     z-index: 1;
   }
-  #menuToggle {
-    display: block;
-    position: absolute;
-    bottom:0;
-    right: 0;
-    top: 20px;
-    left: 15px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-  }
 
   #menuToggle {
     display: block;
@@ -395,26 +375,12 @@ img.flex {
     bottom:0;
     right: 0;
     top: 22px;
-    left: 10px;
-    z-index: 1;
+    left: 22px;
+    z-index: 2;
     -webkit-user-select: none;
     user-select: none;
   }
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 40px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color:#F66706;
-    color: white;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 4px;
-  }
+  
   .flex-container {
     padding: 0;
     margin: 0;
@@ -456,7 +422,7 @@ transition: width 0.5s;
 
 footer {
 height: 5px;
-padding: 15px;
+padding: 10px;
 position: fixed;
 left: 0;
 bottom: 0;
@@ -465,6 +431,6 @@ background-color:#F66706;
 justify-content: center;
 color: antiquewhite;
 display: flex;
-font-size: 12px;
+font-size: 14px;
 }
 }
