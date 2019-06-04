@@ -4,8 +4,25 @@
 <head>
   <meta charset="utf-8"/>
   <link rel="icon" href="images/favicon.png" type="image/png" size="32x32">
-  <title>Map</title>
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <title>newMap</title>
+  <style>
+    .iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  height: 2000px;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+  </style>
+  <link rel="stylesheet" type="text/css" href="mapstyle.css"/>
 </head>
 
 <nav role="navigation">
@@ -40,12 +57,12 @@
 <br>
 
 <div class="iframe-container">
-    <iframe
-     src="https://www.google.com/maps/d/embed?mid=1mvFjKd03QHG6IZ1M81lcx9hZueasTn6h"
-     frameborder="0" allowfullscreen="no"
-     style="position:absolute; top:0; left: 0"></iframe>
-    </div>
-    
+<iframe
+ src="https://www.google.com/maps/d/embed?mid=1mvFjKd03QHG6IZ1M81lcx9hZueasTn6h"
+ frameborder="0" allowfullscreen="no"
+ style="position:absolute; top:0; left: 0"></iframe>
+</div>
+
 
     <footer class="footer">Brisbane, Queensland, Australia</footer>
   </body>
