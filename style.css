@@ -350,7 +350,7 @@ img.flex {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
   .columns .column {
     flex-basis: 100%;
     margin: 0 0 5px 0;
