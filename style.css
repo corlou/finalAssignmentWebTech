@@ -131,7 +131,12 @@ img {
   margin: 0;
   height: auto;
 }
-
+img.hero {
+  max-width: 100%;
+  margin: 0;
+  height: auto;
+  padding-top: 40px;
+}
 div {
   width: 100%;
   height: 100%;
