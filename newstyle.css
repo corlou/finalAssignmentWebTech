@@ -368,7 +368,7 @@ img.flex {
   header > h4 {
     width: calc(100% - 160px);
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     color: white;
     text-emphasis: none;
   }
