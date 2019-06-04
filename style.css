@@ -356,10 +356,21 @@ img.flex {
     margin: 0 0 5px 0;
   }
   
+  header {
+    height: 50px;
+    background-color: #F66706;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+  }
+
   header > h1 {
     width: calc(100% - 160px);
     text-align: center;
-    font-size: 10px;
+    font-size: 20px;
     color: white;
     text-emphasis: none;
   }
