@@ -8,6 +8,15 @@
   <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <style>
+    .external {
+      color:purple;
+    }
+
+    p {
+      text-align: center;
+    }
+
+
     .external:hover {
       color: #F66706;
     }
@@ -73,38 +82,35 @@
 
 
   <div>
-    <p>If you haven't been able to reach us via CouchSurfing, Facebook, or WhatsApp; send us a message below. Please
-      note that all Couch Surfing bookings go via <a class="external" href="https://www.couchsurfing.com/">The Couch
-        Surfing Website</a>
-    </p>
+    <p>If you haven't been able to reach us via CouchSurfing, Facebook, or WhatsApp; send us a message below.</p>
   </div>
-<div>
-    <a href="contactForm.html">contact-test page</a>
-</div>
+
+  <div>
+      <p>Please note that all Couch Surfing bookings go via <a class="external" href="https://www.couchsurfing.com/">The Couch
+        Surfing Website</a>
+  </div>
+
   <br>
-  <form>
-    First name:
-    <input type="text" name="firstname">
-    <br>
-    <br>
-    Last name:
-    <input type="text" name="lastname">
-    <br>
-    <br>
-    E-mail:
-    <input type="email" name="email">
-    <br>
-    <br>
-    <textarea name="message" rows="10" cols="30"></textarea>
-    <br>
-    <br>
-    <button class="button--contact" type="button" onclick="alert('Thanks for your message!')">submit</button>
-    <br>
-  </form>
+  
+  <div>
+      <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button class="button--contact" type="submit">Send</button>
+          </p>
+        </form>
+  </div>
+      
+ 
   <br>
-
-
-
 
   <div id="back-top">
       <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
