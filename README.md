@@ -25,9 +25,6 @@ Brown, D. 2016 “holey_3” from <a href="https://www.broadsheet.com.au/brisban
 
 Café, C. 2019 “cheung_1” from <a href="https://cheungs-cakes-cafe.business.site/"> Date accessed 10th May 2019
 
-Caliber Security, 2019 “sav_1” from <a href="https://www.procalibersecurity.com.au/procaliber-security-just-found-fortitude-valleys-trendy-new-bar-savile-row/"> Date accessed 19 May 2019
-Champ, F. 2015 “yiros_2” from <a href="https://www.zomato.com/photos/pv-res-16594654-u_NzQwOTkwNzkzOT"> Date accessed 21 May 2019
-
 Codepen “Responsive Columns for Images” from <a href="https://codepen.io/badurski/pen/rpqgLZ"> Date accessed 15th May 2019
 
 Dawson, L 2017. “milkbox_1” from <a href="https://concreteplayground.com/brisbane/restaurants/milk-box-coffee-tuckshop">accessed 7th May 2019
@@ -43,8 +40,6 @@ Dumalo, N. 2018. “hero_cafe” from <a href=“https://unsplash.com/photos/vbt
 Frostlick, J. 2018 “finney_1” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
 
 Frostlick, J. 2018 “finney_2” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
-
-Frostlick, J. 2018 “finney_3” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
 
 Frostlick, J. 2016 “tom_1” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
 
@@ -169,8 +164,6 @@ Unknown, 2019 “eat_3” from <a href="https://briskfridgetruckrentals.com.au/b
 Unknown, 2019 “goma_3” from <a href="http://qld.welcome-to.com/queensland-gallery-modern-art/"> date accessed 25 May 2019
 
 Unknown, 2018 “mtc_2” from <a href="https://www.visitbrisbane.com.au/information/articles/activities/things-to-do-mt-coot-tha?sc_lang=en-au"> date accessed 20 May 2019
-
-Unknown, 2019. “sav_2” from <a href="https://www.broadsheet.com.au/brisbane/fortitude-valley/bars/saville-row"> Date accessed 19 May 2019
 
 Unknown, 2018 “mtc_3” from <a href="https://www.visitbrisbane.com.au/information/articles/activities/things-to-do-mt-coot-tha?sc_lang=en-au"> date accessed 20 May 2019
 
