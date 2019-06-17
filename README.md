@@ -27,10 +27,6 @@ Café, C. 2019 “cheung_1” from <a href="https://cheungs-cakes-cafe.business.
 
 Codepen “Responsive Columns for Images” from <a href="https://codepen.io/badurski/pen/rpqgLZ"> Date accessed 15th May 2019
 
-Dawson, L 2017. “milkbox_1” from <a href="https://concreteplayground.com/brisbane/restaurants/milk-box-coffee-tuckshop">accessed 7th May 2019
-
-Demos, C. 2017 “milkbox_2” from <a href="https://theweekendedition.com.au/stumble-guide/milk-box-coffee-and-tuckshop/">accessed 7th May 2019
-
 Demos, C. 2018 “newB_1” from  <a href="https://theweekendedition.com.au/stumble-guide/the-new-black/">  Date accessed 8th May 2019
 
 Dumlao, N. 2017. “newB_2” from <a href="https://unsplash.com/photos/N9I3T-AUp84"> Date accessed 8th May 2019
@@ -95,7 +91,7 @@ McMeekin, S. 2014 “ben_2” from <a href="https://www.theurbanlist.com/brisban
 McMeekin, S. 2014 “ben_3” from <a href="https://www.theurbanlist.com/brisbane/a-list/ben-s-burgers-opens-valley"> Date accessed 25 May 2019
 
 Michuda, D. 2015. “newb_3” from <a href="https://unsplash.com/photos/fphpSh9KBXE"> Date accessed 8th May 2019
-Mnm.all 2018 “soap_2” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 10 May 2019
+
 
 Must Do Brisbane, 2019 “king_1” from <a href="https://www.mustdobrisbane.com/features/king-lears-throne-fortitude-valley"> Date accessed 19 May 2019
 
@@ -134,8 +130,6 @@ Terwan, E. “Hamburger Menu” from <a href="https://codepen.io/erikterwan/pen/
 
 W3schools 2019 “Scroll to Top Button” from <a href="https://www.w3schools.com/howto/howto_js_scroll_to_top.asp">
 Date accessed 15th May 2019
-
-Unknown, 2019 “5dogs_1” from <a href="https://www.zomato.com/brisbane/5-dogs-gourmet-hot-dogs-fortitude-valley"> Date accessed 20 May 2019
 
 Unknown, 2019 “5dogs_2” from <a href="http://www.5dogs.com.au/"> Date accessed 20 May 2019
 
