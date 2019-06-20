@@ -33,17 +33,14 @@ Dumlao, N. 2017. “newB_2” from <a href="https://unsplash.com/photos/N9I3T-AU
 
 Dumalo, N. 2018. “hero_cafe” from <a href=“https://unsplash.com/photos/vbt-Fp3b5FA”> date accessed 7th May 2019.
 
-Frostlick, J. 2018 “finney_1” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
-
 Frostlick, J. 2018 “finney_2” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
-
-Frostlick, J. 2016 “tom_1” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
 
 Frostlick, J. 2016 “tom_2” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
 
 Frostlick, J. 2016 “tom_3” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
 
 Frostlick, J. 2018 “daily_p_2” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
+
 Frostlick, J. 2018 “daily_p_3” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
 
 Frostlick, J. 2018 “king_2” from <a href="https://theweekendedition.com.au/stumble-guide/king-lears-throne/"> Date accessed 19 May 2019
@@ -71,7 +68,6 @@ Jackmanson, D. 2017 “vin_2” from <a href="https://www.flickr.com/photos/djac
 Jamil, H. 2017 “cafe_63_2” from <a href="https://unsplash.com/photos/J9lD6FS6_cs"> accessed 7th May 2019
 Jeshoots.com, 2017 “hero_transport” from <a href=“https://unsplash.com/photos/qVEa8R0lIWk”> Date accessed7th May 2019.
 
-Lidster, D. 2019 “woolly_1” from <a href= "http://espresso-and-matcha.blogspot.com/2015/10/woolly-mammoth-fortitude-valley.html"> Date accessed 19 May 2019
 
 Lidster, D. 2019 “woolly_2” from <a href="http://espresso-and-matcha.blogspot.com/2015/10/woolly-mammoth-fortitude-valley.html"> Date accessed 19 May 2019
 
