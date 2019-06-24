@@ -13,8 +13,6 @@ Brendan, 2012 “cloud_1” from <a href="https://foursquare.com/v/cloudland/4b0
 
 Brittanie 2019 “vin_3” from <a href= "http://www.brittslist.com.au/article/guide-best-op-shops-brisbane/"> Date accessed 8th May 2019
 
-Brisbane Development, 2016 “eat_1” from <a href="https://brisbanedevelopment.com/big-expansion-plans-proposed-for-eat-street-markets/"> date accessed 25 May 2019
-
 Brisbane Kids, 2019 “botanic_1” from <a href="https://www.brisbanekids.com.au/brisbane-city-botanic-gardens/"> date accessed 25 May 2019
 
 Brisbane Kids, 2019 “botanic_3” from <a href="https://www.brisbanekids.com.au/brisbane-city-botanic-gardens/"> date accessed 25 May 2019
@@ -35,8 +33,6 @@ Dumalo, N. 2018. “hero_cafe” from <a href=“https://unsplash.com/photos/vbt
 
 Frostlick, J. 2018 “finney_2” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
 
-Frostlick, J. 2016 “tom_2” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
-
 Frostlick, J. 2016 “tom_3” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
 
 Frostlick, J. 2018 “daily_p_2” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
@@ -44,8 +40,6 @@ Frostlick, J. 2018 “daily_p_2” from <a href="https://theweekendedition.com.a
 Frostlick, J. 2018 “daily_p_3” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
 
 Frostlick, J. 2018 “king_2” from <a href="https://theweekendedition.com.au/stumble-guide/king-lears-throne/"> Date accessed 19 May 2019
-
-Frostlick, J. 2018 “king_3” from <a href="https://theweekendedition.com.au/stumble-guide/king-lears-throne/"> Date accessed 19 May 2019
 
 Frostlick, J. 2017 “suki_2” from <a href="https://theweekendedition.com.au/stumble-guide/suki-gasworks/"> Date accessed 25 May 2019
 
@@ -89,8 +83,6 @@ McMeekin, S. 2014 “ben_3” from <a href="https://www.theurbanlist.com/brisban
 Michuda, D. 2015. “newb_3” from <a href="https://unsplash.com/photos/fphpSh9KBXE"> Date accessed 8th May 2019
 
 
-Must Do Brisbane, 2019 “king_1” from <a href="https://www.mustdobrisbane.com/features/king-lears-throne-fortitude-valley"> Date accessed 19 May 2019
-
 Must Do Brisbane, 2019. “mtc_1” from <a href="https://www.mustdobrisbane.com/features/things-do-weekend-23-25-march"> date accessed 20 May 2019
 
 Olichon, A. 2018 “hero_bar” from <a href=“https://unsplash.com/photos/_CpF-Za8crc”> date accessed 7th May 2019.
@@ -110,11 +102,6 @@ Retro’s Bar 2019 “retro_1” from <a href="https://brisbane.retros.com.au/wp
 Retro’s Bar 2019 “retro_3” from <a href="https://brisbane.retros.com.au/wp-content/uploads/2017/07/retros-entrance-sm.jpg"> Date accessed 20 May 2019
 
 Roberts, M. 2018 “pro_2” from <a href="https://www.broadsheet.com.au/brisbane/fortitude-valley/bars/prohibition"> Date accessed 19 May 2019
-
-Society, S. 2015 “yiros_2” from <a href="https://www.zomato.com/photos/pv-res-16594654-u_NjY2MjA0ODQxMz"> Date accessed 21 May 2019
-
-Seafarrwide 2015 “cloud_2” from <a href="https://www.weekendnotes.com/cloudland-brisbane/"> Date accessed 19 May 2019
-Seafarrwide 2015 “cloud_3” from <a href="https://www.weekendnotes.com/cloudland-brisbane/"> Date accessed 19 May 2019
 
 Salim, A. 2017 “train_2” from <a href="https://unsplash.com/photos/k3obIqEn6qE"> Date Date accessed 8th May 2019
 
@@ -147,9 +134,6 @@ Unknown 2019 “holey_2” from <a href="https://theweekendedition.com.au/the-st
 
 Unknown, 2019 “suki_1” from <a href="https://www.tripadvisor.com.au/LocationPhotoDirectLink-g255068-d13006311-i287031479-Suki-Brisbane_Brisbane_Region_Queensland.html"> date accessed 25 May 2019
 
-Unknown, 2019 “eat_2” from <a href="https://hiexbrisbane.com.au/brisbane/attractions-family-fun/item/100-eat-street-market"> date accessed 25 May 2019
-
-Unknown, 2019 “eat_3” from <a href="https://briskfridgetruckrentals.com.au/black-ice-cream-strange-dessert-brisbane/"> date accessed 25 May 2019
 
 Unknown, 2019 “goma_3” from <a href="http://qld.welcome-to.com/queensland-gallery-modern-art/"> date accessed 25 May 2019
 
