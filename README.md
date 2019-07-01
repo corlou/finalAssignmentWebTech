@@ -33,8 +33,6 @@ Dumalo, N. 2018. “hero_cafe” from <a href=“https://unsplash.com/photos/vbt
 
 Frostlick, J. 2018 “finney_2” <a href="https://theweekendedition.com.au/stumble-guide/finney-isles/"> from Date accessed 19 May 2019
 
-Frostlick, J. 2016 “tom_3” from <a href="https://unsplash.com/photos/46Yad80Ynp4"> Date accessed 15 May 2019
-
 Frostlick, J. 2018 “daily_p_2” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
 
 Frostlick, J. 2018 “daily_p_3” from <a href="https://theweekendedition.com.au/stumble-guide/daily-planet-cafe/"> date accessed 10th May 2019
